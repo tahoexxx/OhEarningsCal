@@ -202,7 +202,7 @@
   {
     "symbol": "APP",
     "companyName": "AppLovin",
-    "industry": "Application Software"
+    "industry": "Advertising"
   },
   {
     "symbol": "APTV",
@@ -802,7 +802,7 @@
   {
     "symbol": "DD",
     "companyName": "DuPont",
-    "industry": "Specialty Chemicals"
+    "industry": "Industrial Conglomerates"
   },
   {
     "symbol": "ETN",
@@ -833,11 +833,6 @@
     "symbol": "EW",
     "companyName": "Edwards Lifesciences",
     "industry": "Health Care Equipment"
-  },
-  {
-    "symbol": "EA",
-    "companyName": "Electronic Arts",
-    "industry": "Interactive Home Entertainment"
   },
   {
     "symbol": "ELV",
@@ -978,6 +973,11 @@
     "symbol": "FDXF",
     "companyName": "FedEx Freight",
     "industry": "Cargo Ground Transportation"
+  },
+  {
+    "symbol": "FERG",
+    "companyName": "Ferguson Enterprises",
+    "industry": "Building Products"
   },
   {
     "symbol": "FIS",
