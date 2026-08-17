@@ -1636,7 +1636,7 @@
   },
   {
     "symbol": "MSCI",
-    "companyName": "MSCI Inc.",
+    "companyName": "MSCI",
     "industry": "Financial Exchanges & Data"
   },
   {
@@ -1736,7 +1736,7 @@
   },
   {
     "symbol": "ORLY",
-    "companyName": "O’Reilly Automotive",
+    "companyName": "O'Reilly Automotive",
     "industry": "Automotive Retail"
   },
   {
@@ -1971,7 +1971,7 @@
   },
   {
     "symbol": "RMD",
-    "companyName": "ResMed",
+    "companyName": "ResMed|",
     "industry": "Health Care Equipment"
   },
   {
