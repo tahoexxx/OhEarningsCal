@@ -21,11 +21,15 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  # true: a newer run supersedes any stuck/waiting one. A run once sat in
+  # "waiting" for 18 days holding this group, freezing the ICS at its last
+  # deploy (2026-08-06 → 08-24 outage).
+  cancel-in-progress: true
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
