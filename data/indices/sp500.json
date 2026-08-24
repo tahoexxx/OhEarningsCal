@@ -265,11 +265,6 @@
     "industry": "Automotive Retail"
   },
   {
-    "symbol": "AVB",
-    "companyName": "AvalonBay Communities",
-    "industry": "Multi-Family Residential REITs"
-  },
-  {
     "symbol": "AVY",
     "companyName": "Avery Dennison",
     "industry": "Paper & Plastic Packaging Products & Materials"
@@ -873,11 +868,6 @@
     "symbol": "EQIX",
     "companyName": "Equinix",
     "industry": "Data Center REITs"
-  },
-  {
-    "symbol": "EQR",
-    "companyName": "Equity Residential",
-    "industry": "Multi-Family Residential REITs"
   },
   {
     "symbol": "ERIE",
@@ -1940,6 +1930,11 @@
     "industry": "Investment Banking & Brokerage"
   },
   {
+    "symbol": "RDDT",
+    "companyName": "Reddit",
+    "industry": "Interactive Media & Services"
+  },
+  {
     "symbol": "RTX",
     "companyName": "RTX Corporation",
     "industry": "Aerospace & Defense"
@@ -2383,6 +2378,11 @@
     "symbol": "VST",
     "companyName": "Vistra Corp.",
     "industry": "Electric Utilities"
+  },
+  {
+    "symbol": "VMRK",
+    "companyName": "Vivmark Residential",
+    "industry": "Multi-Family Residential REITs"
   },
   {
     "symbol": "VMC",
