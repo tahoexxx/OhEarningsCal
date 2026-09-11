@@ -66,6 +66,29 @@ jobs:
           SHOULD_GEN_ALL: ${{ vars.SHOULD_GEN_ALL }}
           CUSTOM_STOCKS: ${{ vars.CUSTOM_STOCKS }}
 
+      - name: Restore market calendar cache
+        uses: actions/cache@v5
+        with:
+          path: data/market-calendar
+          key: market-calendar-v1-${{ github.run_id }}
+          restore-keys: |
+            market-calendar-v1-
+
+      - name: Verify market calendar parsers
+        run: pnpm test
+
+      - name: Keep previous market files available if collection fails
+        run: |
+          mkdir -p docs/ics
+          if [ -d data/market-calendar/published ]; then
+            cp data/market-calendar/published/* docs/ics/
+          fi
+
+      - name: Generate separate macro and company calendars
+        run: pnpm run calendar
+        timeout-minutes: 6
+        continue-on-error: true
+
       - uses: actions/configure-pages@v6
 
       - uses: actions/upload-pages-artifact@v5

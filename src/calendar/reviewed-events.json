@@ -1,0 +1,19 @@
+{
+  "overrides": [],
+  "dismissals": [
+    {
+      "id": "c6da6bd38d374b61f098",
+      "content_hash": "59036ea3bbdacbd67ae1ba060edeb3b786475ff057363f617efb6464c1fcd0b4",
+      "reviewed_at": "2026-09-11T11:13:48.491Z",
+      "reviewed_by": "Codex",
+      "reason": "Newsletter reminder of an Apple Event already captured from its dated official invitation."
+    },
+    {
+      "id": "b9ed54d8ec602334bb00",
+      "content_hash": "920c73c48c14f18d6984a7d787779d16a8449bf62f6d2c909c1368a2d1b1b031",
+      "reviewed_at": "2026-09-11T11:13:48.496Z",
+      "reviewed_by": "Codex",
+      "reason": "Social-channel announcement; mentions WWDC generally but does not announce an event date."
+    }
+  ]
+}

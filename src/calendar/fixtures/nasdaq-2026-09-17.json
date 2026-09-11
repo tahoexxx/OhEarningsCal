@@ -1,0 +1,160 @@
+{
+  "query": "2026-09-17",
+  "rows": [
+    {
+      "gmt": "07:00",
+      "country": "United States",
+      "eventName": "MBA 30-Year Mortgage Rate"
+    },
+    {
+      "gmt": "07:00",
+      "country": "United States",
+      "eventName": "MBA Mortgage Applications"
+    },
+    {
+      "gmt": "07:00",
+      "country": "United States",
+      "eventName": "MBA Purchase Index"
+    },
+    {
+      "gmt": "07:00",
+      "country": "United States",
+      "eventName": "Mortgage Market Index"
+    },
+    {
+      "gmt": "07:00",
+      "country": "United States",
+      "eventName": "Mortgage Refinance Index"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "Core Retail Sales"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "Export Price Index"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "Export Price Index"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "Import Price Index"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "Import Price Index"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "Retail Control"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "Retail Sales"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "Retail Sales"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "Retail Sales Ex Gas/Autos"
+    },
+    {
+      "gmt": "10:00",
+      "country": "United States",
+      "eventName": "Business Inventories"
+    },
+    {
+      "gmt": "10:00",
+      "country": "United States",
+      "eventName": "NAHB Housing Market Index"
+    },
+    {
+      "gmt": "10:00",
+      "country": "United States",
+      "eventName": "Retail Inventories Ex Auto"
+    },
+    {
+      "gmt": "11:30",
+      "country": "United States",
+      "eventName": "Atlanta Fed GDPNow"
+    },
+    {
+      "gmt": "14:00",
+      "country": "United States",
+      "eventName": "Interest Rate Projection - 1st Yr"
+    },
+    {
+      "gmt": "14:00",
+      "country": "United States",
+      "eventName": "Interest Rate Projection - 2nd Yr"
+    },
+    {
+      "gmt": "14:00",
+      "country": "United States",
+      "eventName": "Interest Rate Projection - 3rd Yr"
+    },
+    {
+      "gmt": "14:00",
+      "country": "United States",
+      "eventName": "Interest Rate Projection - Current"
+    },
+    {
+      "gmt": "14:00",
+      "country": "United States",
+      "eventName": "Interest Rate Projection - Longer"
+    },
+    {
+      "gmt": "14:00",
+      "country": "United States",
+      "eventName": "FOMC Economic Projections"
+    },
+    {
+      "gmt": "14:00",
+      "country": "United States",
+      "eventName": "FOMC Statement"
+    },
+    {
+      "gmt": "14:00",
+      "country": "United States",
+      "eventName": "Fed Interest Rate Decision"
+    },
+    {
+      "gmt": "14:30",
+      "country": "United States",
+      "eventName": "FOMC Press Conference"
+    },
+    {
+      "gmt": "16:00",
+      "country": "United States",
+      "eventName": "US Foreign Buying, T-bonds"
+    },
+    {
+      "gmt": "16:00",
+      "country": "United States",
+      "eventName": "Overall Net Capital Flow"
+    },
+    {
+      "gmt": "16:00",
+      "country": "United States",
+      "eventName": "TIC Net Long-Term Transactions"
+    },
+    {
+      "gmt": "16:00",
+      "country": "United States",
+      "eventName": "TIC Net Long-Term Transactions including Swaps"
+    }
+  ]
+}

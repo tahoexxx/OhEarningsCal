@@ -7,6 +7,8 @@ package-lock.json
 # Generated at build time — never commit
 data/earnings/
 docs/ics/
+data/market-calendar/
+probe.mjs
 
 # Private AI context (per-machine, not for the public repo)
 local-context.md

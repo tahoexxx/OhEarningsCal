@@ -1,0 +1,160 @@
+{
+  "query": "2026-09-12",
+  "rows": [
+    {
+      "gmt": "05:00",
+      "country": "United States",
+      "eventName": "IEA Monthly Report"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "Core CPI"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "Core CPI"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "Core CPI Index"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "CPI"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "CPI"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "CPI Index, n.s.a."
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "CPI Index, s.a"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "CPI, n.s.a"
+    },
+    {
+      "gmt": "08:30",
+      "country": "United States",
+      "eventName": "Real Earnings"
+    },
+    {
+      "gmt": "10:00",
+      "country": "United States",
+      "eventName": "Michigan 1-Year Inflation Expectations"
+    },
+    {
+      "gmt": "10:00",
+      "country": "United States",
+      "eventName": "Michigan 5-Year Inflation Expectations"
+    },
+    {
+      "gmt": "10:00",
+      "country": "United States",
+      "eventName": "Michigan Consumer Expectations"
+    },
+    {
+      "gmt": "10:00",
+      "country": "United States",
+      "eventName": "Michigan Consumer Sentiment"
+    },
+    {
+      "gmt": "10:00",
+      "country": "United States",
+      "eventName": "Michigan Current Conditions"
+    },
+    {
+      "gmt": "11:00",
+      "country": "United States",
+      "eventName": "Cleveland CPI"
+    },
+    {
+      "gmt": "12:00",
+      "country": "United States",
+      "eventName": "WASDE Report"
+    },
+    {
+      "gmt": "13:00",
+      "country": "United States",
+      "eventName": "U.S. Baker Hughes Oil Rig Count"
+    },
+    {
+      "gmt": "13:00",
+      "country": "United States",
+      "eventName": "U.S. Baker Hughes Total Rig Count"
+    },
+    {
+      "gmt": "14:00",
+      "country": "United States",
+      "eventName": "Federal Budget Balance"
+    },
+    {
+      "gmt": "15:30",
+      "country": "United States",
+      "eventName": "CFTC Aluminium speculative net positions"
+    },
+    {
+      "gmt": "15:30",
+      "country": "United States",
+      "eventName": "CFTC Copper speculative net positions"
+    },
+    {
+      "gmt": "15:30",
+      "country": "United States",
+      "eventName": "CFTC Corn speculative net positions"
+    },
+    {
+      "gmt": "15:30",
+      "country": "United States",
+      "eventName": "CFTC Crude Oil speculative net positions"
+    },
+    {
+      "gmt": "15:30",
+      "country": "United States",
+      "eventName": "CFTC Gold speculative net positions"
+    },
+    {
+      "gmt": "15:30",
+      "country": "United States",
+      "eventName": "CFTC Nasdaq 100 speculative net positions"
+    },
+    {
+      "gmt": "15:30",
+      "country": "United States",
+      "eventName": "CFTC Natural Gas speculative net positions"
+    },
+    {
+      "gmt": "15:30",
+      "country": "United States",
+      "eventName": "CFTC S&P 500 speculative net positions"
+    },
+    {
+      "gmt": "15:30",
+      "country": "United States",
+      "eventName": "CFTC Silver speculative net positions"
+    },
+    {
+      "gmt": "15:30",
+      "country": "United States",
+      "eventName": "CFTC Soybeans speculative net positions"
+    },
+    {
+      "gmt": "15:30",
+      "country": "United States",
+      "eventName": "CFTC Wheat speculative net positions"
+    }
+  ]
+}
