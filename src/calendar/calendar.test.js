@@ -63,3 +63,15 @@ test('separate ICS has deterministic UID, UTC DTSTART, build DTSTAMP and source 
  assert.ok(!text.includes('VALARM')); // no unsolicited external reminders
  assert.match(calendarIcs([],'macro',now),/BEGIN:VCALENDAR/);
 });
+
+test('reviewed company overrides', async()=>{
+ const {reviewedEvent}=await import('./reviewed.js');
+ const {readFile}=await import('node:fs/promises');
+ const {overrides}=JSON.parse(await readFile(new URL('./reviewed-events.json',import.meta.url),'utf8'));
+ const evs=overrides.map(reviewedEvent);
+ const r=evs.find(e=>e.id==='tsla-roadster-2026-10');
+ assert.equal(r.start,'2026-10-16T00:55:00.000Z');
+ const m=mergeEvents([], [r], '2026-10-16T08:00:00.000Z')[0];
+ assert.equal(m.revision,1);assert.equal(m.previous_start,'2026-10-01');
+ assert.throws(()=>reviewedEvent({...overrides[0],url:'https://example.com/x'}));
+});

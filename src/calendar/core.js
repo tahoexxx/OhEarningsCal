@@ -38,8 +38,9 @@ export function mergeEvents(previous,incoming,now) {
   const old=map.get(e.id);
   const changed=old&&(old.start!==e.start||old.date!==e.date||old.status!==e.status);
   map.set(e.id,{...e,first_seen:old?.first_seen||now,last_verified:now,
-   revision:(old?.revision||0)+(changed?1:0),
-   ...(changed?{previous_start:old.start||old.date}:{previous_start:old?.previous_start})});
+   // A reviewed event may carry a reschedule seen before it entered the calendar.
+   revision:Math.max(e.revision||0,(old?.revision||0)+(changed?1:0)),
+   ...(changed?{previous_start:old.start||old.date}:{previous_start:old?.previous_start??e.previous_start})});
  }
  return [...map.values()].filter(e=>e.date>=shift(now.slice(0,10),-370)).sort((a,b)=>(a.start||a.date).localeCompare(b.start||b.date));
 }

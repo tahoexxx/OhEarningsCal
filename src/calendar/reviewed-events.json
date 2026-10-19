@@ -1,5 +1,125 @@
 {
-  "overrides": [],
+  "overrides": [
+    {
+      "id": "tsla-roadster-2026-10",
+      "title": "Tesla Roadster 发布会",
+      "date": "2026-10-15",
+      "time": "19:55",
+      "zone": "America/Chicago",
+      "url": "https://x.com/Tesla/status/2110165104713183485",
+      "source": "reviewed-x",
+      "tickers": [
+        "TSLA"
+      ],
+      "status": "confirmed",
+      "detail": "户外活动，原定 10-01（@elonmusk 09-13 \"New Tesla Roadster Unveil 10.01\"），因天气改期。",
+      "evidence": "Roadster event streaming live this Thursday at 7:55pm CST (posted 2026-10-14)",
+      "revision": 1,
+      "previous_start": "2026-10-01",
+      "last_verified": "2026-10-16T08:00:00.000Z",
+      "reviewed_by": "Claude (Tadeo 10-16 approved)"
+    },
+    {
+      "id": "nvda-gtc-berlin-2026-keynote",
+      "title": "NVIDIA GTC 柏林 · 黄仁勋主题演讲",
+      "date": "2026-10-21",
+      "time": "11:00",
+      "zone": "Europe/Berlin",
+      "url": "https://www.nvidia.com/en-eu/gtc/keynote/",
+      "source": "reviewed-official",
+      "tickers": [
+        "NVDA"
+      ],
+      "status": "confirmed",
+      "detail": "GTC Berlin 10-20 至 10-22（10-20 workshops，10-21~22 大会，Tempodrom）；主题演讲 10-21 11:00–13:00 CEST。",
+      "evidence": "AI Conference & Expo October 21–22, 2026 | Keynote October 21 | Workshops October 20 | Berlin; Wednesday, October 21 | 11 a.m.–1 p.m. CEST",
+      "last_verified": "2026-10-19T04:00:00.000Z",
+      "reviewed_by": "Claude (Tadeo 10-19 asked)"
+    },
+    {
+      "id": "nvda-gtc-dc-2026-keynote",
+      "title": "NVIDIA GTC 华盛顿 · 黄仁勋主题演讲",
+      "date": "2026-12-01",
+      "time": "14:00",
+      "zone": "America/New_York",
+      "url": "https://www.nvidia.com/gtc/dc/",
+      "source": "reviewed-official",
+      "tickers": [
+        "NVDA"
+      ],
+      "status": "confirmed",
+      "detail": "GTC Washington, D.C. 11-30 至 12-03（11-30 workshops，12-01~03 大会）；主题演讲 12-01。",
+      "evidence": "Nov 30–Dec 3, 2026 | AI Conference & Expo Dec. 1–3, 2026 | Keynote Dec. 1; keynote Tuesday, December 1 at 2 p.m. ET",
+      "last_verified": "2026-10-19T03:00:00.000Z",
+      "reviewed_by": "Claude (Tadeo 10-19 asked)"
+    },
+    {
+      "id": "nvda-gtc-2027",
+      "title": "NVIDIA GTC 2027",
+      "date": "2027-03-15",
+      "end_date": "2027-03-19",
+      "url": "https://www.nvidia.com/gtc/call-for-submissions/",
+      "source": "reviewed-official",
+      "tickers": [
+        "NVDA"
+      ],
+      "status": "confirmed",
+      "detail": "San Jose；含 Jensen Huang 主题演讲（具体时间待公布）。",
+      "evidence": "March 15–18, 2027",
+      "last_verified": "2026-10-16T08:00:00.000Z",
+      "reviewed_by": "Claude (Tadeo 10-16 approved)"
+    },
+    {
+      "id": "msft-ignite-2026",
+      "title": "Microsoft Ignite 2026",
+      "date": "2026-11-17",
+      "end_date": "2026-11-21",
+      "url": "https://ignite.microsoft.com/",
+      "source": "reviewed-official",
+      "tickers": [
+        "MSFT"
+      ],
+      "status": "confirmed",
+      "detail": "微软年度开发者/企业大会。",
+      "evidence": "November 17–20, 2026",
+      "last_verified": "2026-10-16T08:00:00.000Z",
+      "reviewed_by": "Claude (Tadeo 10-16 approved)"
+    },
+    {
+      "id": "amzn-reinvent-2026",
+      "title": "AWS re:Invent 2026",
+      "date": "2026-11-30",
+      "end_date": "2026-12-05",
+      "url": "https://aws.amazon.com/events/reinvent/",
+      "source": "reviewed-official",
+      "tickers": [
+        "AMZN"
+      ],
+      "status": "confirmed",
+      "detail": "Las Vegas；AWS 年度大会。",
+      "evidence": "Nov 30-Dec 4, Las Vegas",
+      "last_verified": "2026-10-16T08:00:00.000Z",
+      "reviewed_by": "Claude (Tadeo 10-16 approved)"
+    },
+    {
+      "id": "computex-2027",
+      "title": "COMPUTEX 2027",
+      "date": "2027-06-01",
+      "end_date": "2027-06-05",
+      "url": "https://www.computextaipei.com.tw/en/index.html",
+      "source": "reviewed-official",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM"
+      ],
+      "status": "confirmed",
+      "detail": "台北；芯片厂商主题演讲集中。",
+      "evidence": "COMPUTEX Taipei returns June 1 – 4, 2027",
+      "last_verified": "2026-10-16T08:00:00.000Z",
+      "reviewed_by": "Claude (Tadeo 10-16 approved)"
+    }
+  ],
   "dismissals": [
     {
       "id": "c6da6bd38d374b61f098",

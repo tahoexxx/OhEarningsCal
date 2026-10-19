@@ -6,6 +6,7 @@ import { MONTHS,shift,mergeEvents,hash } from '../calendar/core.js';
 import { FED,BEA,APPLE,parseFed,fedAnnualEvents,parseFedMonth,parseBea,parseApple } from '../calendar/official.js';
 import { NASDAQ,BLS_ANCHORS,calibrate,parseNasdaq } from '../calendar/nasdaq.js';
 import { publishCalendar } from '../calendar/publish.js';
+import { reviewedEvent } from '../calendar/reviewed.js';
 
 const now=new Date().toISOString(),today=now.slice(0,10),year=+today.slice(0,4);
 const cache=resolve(ROOT,'data/market-calendar');await mkdir(cache,{recursive:true});
@@ -80,9 +81,9 @@ try {
  state.candidates=state.candidates.filter(c=>!dismissals.some(d=>d.id===c.id&&d.content_hash===c.content_hash));
  for(const e of overrides){
   const candidate=state.candidates.find(c=>c.url===e.url);
-  if(!e.id||!e.last_verified||!e.evidence||!e.reviewed_by||!/^https:\/\/(developer\.)?apple\.com\//.test(e.url))throw Error('Invalid reviewed override');
+  let ev;try{ev=reviewedEvent(e);}catch(err){failure('reviewed',err);continue;}
   if(candidate&&candidate.content_hash!==e.content_hash){failure('reviewed',Error('Reviewed source changed; re-review needed'));continue;}
-  if(!state.events.some(o=>o.id===e.id&&o.last_verified>e.last_verified))state.events=mergeEvents(state.events,[e],e.last_verified);
+  if(!state.events.some(o=>o.id===e.id&&o.last_verified>e.last_verified))state.events=mergeEvents(state.events,[ev],e.last_verified);
  }
 }catch(e){failure('reviewed',e);}
 state.events=state.events.filter(e=>e.date>=shift(today,-370));
