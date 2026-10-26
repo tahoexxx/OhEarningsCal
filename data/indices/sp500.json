@@ -1895,9 +1895,9 @@
     "industry": "Homebuilding"
   },
   {
-    "symbol": "PWR",
-    "companyName": "Quanta Services",
-    "industry": "Construction & Engineering"
+    "symbol": "Q",
+    "companyName": "Qnity Electronics",
+    "industry": "Semiconductor Materials & Equipment"
   },
   {
     "symbol": "QCOM",
@@ -1905,14 +1905,14 @@
     "industry": "Semiconductors"
   },
   {
+    "symbol": "PWR",
+    "companyName": "Quanta Services",
+    "industry": "Construction & Engineering"
+  },
+  {
     "symbol": "DGX",
     "companyName": "Quest Diagnostics",
     "industry": "Health Care Services"
-  },
-  {
-    "symbol": "Q",
-    "companyName": "Qnity Electronics",
-    "industry": "Semiconductor Materials & Equipment"
   },
   {
     "symbol": "RL",
@@ -1928,11 +1928,6 @@
     "symbol": "RDDT",
     "companyName": "Reddit",
     "industry": "Interactive Media & Services"
-  },
-  {
-    "symbol": "RTX",
-    "companyName": "RTX Corporation",
-    "industry": "Aerospace & Defense"
   },
   {
     "symbol": "O",
@@ -1961,7 +1956,7 @@
   },
   {
     "symbol": "RMD",
-    "companyName": "ResMed|",
+    "companyName": "ResMed",
     "industry": "Health Care Equipment"
   },
   {
@@ -1998,6 +1993,11 @@
     "symbol": "RCL",
     "companyName": "Royal Caribbean Group",
     "industry": "Hotels, Resorts & Cruise Lines"
+  },
+  {
+    "symbol": "RTX",
+    "companyName": "RTX Corporation",
+    "industry": "Aerospace & Defense"
   },
   {
     "symbol": "SPGI",
@@ -2051,7 +2051,7 @@
   },
   {
     "symbol": "SKYD",
-    "companyName": "Skydance Corporation",
+    "companyName": "Skydance",
     "industry": "Movies & Entertainment"
   },
   {
