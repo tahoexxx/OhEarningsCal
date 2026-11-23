@@ -36,7 +36,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
 
       - uses: actions/setup-node@v6
         with:
@@ -96,4 +96,15 @@ jobs:
           path: docs
 
       - id: deploy
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+
+      # deploy-pages sometimes queries the artifact before GitHub's API sees it
+      # ("No artifacts named github-pages"), 2026-11-21/23. Retry once.
+      - name: Retry deploy after transient failure
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 30
+
+      - id: deploy_retry
+        if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v5
